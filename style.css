@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;    
+     justify-content: center; 
+}
+
+.titulo {
+    display: flex; 
+    justify-content: center; 
+    font-size: 2.5rem;
+    font-weight: 600;
+    
+    text-align: center;
+    margin: 3rem;
+} 
+
+
+.blocos{
+    display: flex;
+    justify-content: center;
+}
+
+
+.celula{
+    border: 1px solid #000;
+    margin: 2rem;
+
+    height: 110px;
+    width: 90px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    margin: 10px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    
+}
+
+.celula:hover{
+    transform: scale(1.1);
+}
+
+.celula.player1{
+    color: white;  
+   background-color: blue;
+     
+}
+
+.celula.player2{
+    color: white;   
+    background-color: red;
+     
+}
+
